@@ -1,2 +1,1 @@
-# Control_Board_ASUQTR_2026_PROTO
-Vitrine de mon projet de conception d'une nouvelle version du PCB de contrôle du sous-marin du club ASUQTR.
+Ce projet fut réalisé dans le cadre du projet de fin d'étude en équipe du baccalauréat en génie électrique à l'UQTR. Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. 
