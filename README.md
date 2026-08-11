@@ -8,7 +8,7 @@ L'ancien PCB de contrôle a été réalisé par Bastien Côté, un ancien membre
 
 La réalisation du projet est décrite en détail dans cet extrait du rapport de PFE d'équipe: [Extrait du rapport de projet]()
 
-Le logiciel utilisé pour ce projet est Altium Designer Professionnal (24.1.2).\
+Le logiciel utilisé pour la conception du PCB est Altium Designer Professionnal (24.1.2).\
 Le PCB a été imprimé et partiellement assemblé chez JLCPCB. Le reste de l'assemblage a été fait à la main.
 
 ## Visuel 3D du nouveau PCB de contrôle
