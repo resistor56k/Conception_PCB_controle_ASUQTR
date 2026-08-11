@@ -5,5 +5,5 @@ Deux PCB principaux sont présents dans le sous-marin: le PCB de puissance qui d
 
 Le PCB présenté ici est sensé remplacer l'ancien PCB de contrôle. Ce dernier comporte des éléments non-essentiels ou défectueux. La nouvelle version élimine les éléments superflus, ajoute un microcontrôleur STM32G474VET6 et étend la connectivité du PCB. L'ajout du microcontrôleur permet de générer des PWM et mesurer des tensions par des ADC à l'aide d'un seul composant programmable plutôt que plusieurs composants séparés. Le microcontrôleur offre aussi une plus grande quantité de ports I2C et UART que le Jetson Xavier AGX. Donner une capacité de prise de décision au PCB permet de lui déléguer des tâches et lui confier des protocoles de sécurité en cas de détection de défaillance du sous-marin.
 
-#Visuel 3D du nouveau PCB de contrôle
+#Visuel 3D du nouveau PCB de contrôle#
 <img src="3D_New_PCB_Control_dessus.png" width="500" alt="Nouvelle version du PCB de contrôle (vue du dessus)" title="Nouvelle version du PCB de contrôle (vue du dessus)"> <img src="3D_New_PCB_Control_dessous.png" width="500" alt="Nouvelle version du PCB de contrôle (vue du dessous)" title="Nouvelle version du PCB de contrôle (vue du dessous)">
