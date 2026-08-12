@@ -11,8 +11,6 @@ Certaines erreurs de conception sont présentes sur le PCB et sont détaillées 
 
 Les schémas du PCB se trouvent dans ce fichier: [Schémas du PCB](Control_Board_ASUQTR_2026_PROTO.pdf)
 
-Une vue 3D interactive du PCB se trouve dans ce fichier: [Vue 3D interactive](PCB_Control_1.pdf)
-
 Le logiciel utilisé pour la conception du PCB est Altium Designer Professionnal (24.1.2).\
 Le PCB a été imprimé et partiellement assemblé chez JLCPCB. Le reste de l'assemblage a été fait à la main.
 
