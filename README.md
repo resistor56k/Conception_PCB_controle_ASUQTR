@@ -5,11 +5,15 @@
 **Réalisé par Louis Lavallée**
 
 ## Contexte du projet
-Ce projet fut réalisé dans le cadre du projet de fin d'étude en équipe du baccalauréat en génie électrique à l'UQTR. Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. L'objectif du club ASUQTR est de participer à la compétition internationale [Robosub](https://robosub.org/).
+Ce projet fut réalisé dans le cadre du projet de fin d'étude en équipe du baccalauréat en génie électrique à l'UQTR. Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant [ASUQTR](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=8035). L'objectif du club ASUQTR est de participer à la compétition internationale [Robosub](https://robosub.org/) où chaque équipe doit concevoir un sous-marin et lui faire accomplir des tâches et missions de manière entièrement autonome.
+
+## Objectif du projet
+Parmi les systèmes présents dans le sous-marin, se trouve le PCB de contrôle. C'est un circuit imprimé responsable du contrôle des moteurs et autres actionneurs ainsi que de la réception des données de certains capteurs. L'ancienne version de ce circuit est devenue obsolète et doit être remplacée. Ce projet a donc pour but de créer une nouvelle version de ce circuit afin de le rendre plus adapté aux contexte actuel.
+
+**Sous-objectifs:**\
 
 
 
- Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. 
 Deux PCB principaux sont présents dans le sous-marin: le PCB de puissance qui distribue la puissance des batteries aux différents systèmes et le PCB de contrôle qui agit comme intermédiaire entre le Jetson Xavier AGX et les capteurs et actionneurs. Les deux PCB étant devenus obsolètes, il était nécessaire d'en concevoir de nouvelles versions.
 
 Le PCB présenté ici est sensé remplacer l'ancien PCB de contrôle. Ce dernier comporte des éléments non-essentiels ou défectueux. La nouvelle version élimine les éléments superflus, ajoute un microcontrôleur STM32G474VET6 et étend la connectivité du PCB. L'ajout du microcontrôleur permet de générer des PWM et mesurer des tensions par des ADC à l'aide d'un seul composant programmable plutôt que plusieurs composants séparés. Le microcontrôleur offre aussi une plus grande quantité de ports I2C et UART que le Jetson Xavier AGX. Donner une capacité de prise de décision au PCB permet de lui déléguer des tâches et lui confier des protocoles de sécurité en cas de détection de défaillance du sous-marin.\
