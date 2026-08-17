@@ -1,6 +1,15 @@
-### **Ce projet a été réalisé par Louis Lavallée pour le club étudiant ASUQTR.**
+# Conception du PCB de contrôle - Sous-marin autonome (ASUQTR)
 
-Ce projet fut réalisé dans le cadre du projet de fin d'étude en équipe du baccalauréat en génie électrique à l'UQTR. Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. 
+**Projet de fin d'études en équipe - Génie électrique (UQTR)**
+
+**Réalisé par Louis Lavallée**
+
+## Contexte du projet
+Ce projet fut réalisé dans le cadre du projet de fin d'étude en équipe du baccalauréat en génie électrique à l'UQTR. Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. L'objectif du club ASUQTR est de participer à la compétition internationale [Robosub](https://robosub.org/).
+
+
+
+ Le projet d'équipe était centralisé sur la poursuite du développement du sous-marin autonome du club étudiant ASUQTR. 
 Deux PCB principaux sont présents dans le sous-marin: le PCB de puissance qui distribue la puissance des batteries aux différents systèmes et le PCB de contrôle qui agit comme intermédiaire entre le Jetson Xavier AGX et les capteurs et actionneurs. Les deux PCB étant devenus obsolètes, il était nécessaire d'en concevoir de nouvelles versions.
 
 Le PCB présenté ici est sensé remplacer l'ancien PCB de contrôle. Ce dernier comporte des éléments non-essentiels ou défectueux. La nouvelle version élimine les éléments superflus, ajoute un microcontrôleur STM32G474VET6 et étend la connectivité du PCB. L'ajout du microcontrôleur permet de générer des PWM et mesurer des tensions par des ADC à l'aide d'un seul composant programmable plutôt que plusieurs composants séparés. Le microcontrôleur offre aussi une plus grande quantité de ports I2C et UART que le Jetson Xavier AGX. Donner une capacité de prise de décision au PCB permet de lui déléguer des tâches et lui confier des protocoles de sécurité en cas de détection de défaillance du sous-marin.\
