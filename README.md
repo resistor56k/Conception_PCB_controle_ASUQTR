@@ -12,6 +12,10 @@ Parmi les systèmes présents dans le sous-marin, se trouve le PCB de contrôle.
 
 ### Sous-objectifs:
   - **Ajout d'un microcontrôleur :** Intégration d'un microcontrôleur STM32G474VET6 afin de générer les signaux PWM et numériser les signaux analogiques (ADC) à l'aide d'un seul composant plutôt que plusieurs séparés. L'ajout d'un microcontrôleur offre une plus grande quantité de bus I2C et UART que le Jetson Xavier AGX. Ces bus de communication sont indispensables pour communiquer avec les capteurs et autres systèmes. Des bus CAN ou SPI peuvent aussi être ajoutés avec ce nouveau composant. L'ajout du STM32 octroie au PCB la capacité de prendre ses propres décisions et d'exécuter des protocoles de sécurité en cas de défaillance dans les autres systèmes.
+  - **Connectivité étendue :** Une plus grande quantité de connecteurs I2C et UART permettra au PCB ainsi qu'au Jetson Xavier de communiquer avec de futurs capteurs ou sous-systèmes qui pourront être ajoutés au fil du développement du sous-marin.
+  - **Ajout de protections :** Des protections ESD supplémentaires contre les décharges électrostatiques ont été placées près des connecteurs afin de protéger les composants et équipements importants et dispendieux reliés au PCB.
+  - **Accéléromètre intégré :** Un capteur accéléromètre à trois axes a été installé sur le PCB afin de donner au microcontrôleur des données d'orientation du sous-marin indépendantes des capteurs principaux en cas de défaillance et de prise de contrôle du sous-marin dans un protocole de sécurité.
+  - 
 
 Deux PCB principaux sont présents dans le sous-marin: le PCB de puissance qui distribue la puissance des batteries aux différents systèmes et le PCB de contrôle qui agit comme intermédiaire entre le Jetson Xavier AGX et les capteurs et actionneurs. Les deux PCB étant devenus obsolètes, il était nécessaire d'en concevoir de nouvelles versions.
 
