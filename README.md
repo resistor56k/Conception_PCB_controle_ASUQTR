@@ -20,7 +20,7 @@ Parmi les systèmes présents dans le sous-marin, se trouve le PCB de contrôle.
 - [Extrait du rapport de PFE](Extrait_Rapport_PFE.pdf)
 - [Schémas du PCB](Control_Board_ASUQTR_2026_PROTO.pdf)
 
-**Schémas et layout du PCB réalisés sur** ***Altium Designer Professionnal***
+**Schémas et layout du PCB réalisés sur** ***Altium Designer Professionnal***\
 **Fabrication et assemblage partiel du PCB par** ***JLCPCB***
 
 L'ancien PCB de contrôle a été réalisé par Bastien Côté, un ancien membre du club étudiant ASUQTR. Certain circuits présents sur l'ancien PCB ont été réutilisés pour la conception de la nouvelle version.
