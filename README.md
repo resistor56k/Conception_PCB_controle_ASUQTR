@@ -17,6 +17,7 @@ Parmi les systèmes présents dans le sous-marin, se trouve le PCB de contrôle.
   - ***Accéléromètre intégré :*** Un capteur accéléromètre à trois axes a été installé sur le PCB afin de donner au microcontrôleur des données d'orientation du sous-marin indépendantes des capteurs principaux en cas de défaillance et de prise de contrôle du sous-marin dans un protocole de sécurité.
 
 ## Documentation
+- [Firmware de test du microcontrôleur](https://github.com/resistor56k/Firmware_test_PCB_controle_ASUQTR)
 - [Extrait du rapport de PFE](Extrait_Rapport_PFE.pdf)
 - [Schémas du PCB](Control_Board_ASUQTR_2026_PROTO.pdf)
 
